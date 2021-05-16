@@ -1,0 +1,140 @@
+
+*
+{
+   font-family:  Century Gothic;
+}
+body
+{
+	margin:  0;
+	padding:  0;
+	position: relative; 
+   
+    background: linear-gradient(45deg, #00FFFF, #86A8E7, #FB5FCC);
+     width : 100%;
+    height:300vh;
+    background-position: center;
+   
+}
+
+ul
+{
+   
+   padding: 5px 10px;  
+   margin: 10px;
+
+
+}
+ul li
+{
+    float: left;
+    display: flex;    
+}
+
+ul li a
+{
+   text-decoration: none;
+   font-size: 20px;
+   font-weight: bold;
+   color :  white;
+   margin : 5px;   
+   padding :  10px 45px ;   
+   border : 1px solid  transparent;
+   
+   border-radius : 120px;   
+   background-color: rgba(0,0,0,0.4)
+}
+
+ul li a:hover
+{ 
+   color: black;
+   font-weight: ;
+   background-color: rgba(250,250,250,0.8);
+   
+   border-radius: 120px;
+   box-shadow: 100px; 
+   position : center;
+   transition-duration: 0.5s;
+
+}
+form
+{
+   position: absolute;
+   width: 400px;
+   height: 450px;
+   top :  10px;
+   left :  5px;
+   background:  rgba(255,255,255,0.3);   
+   border :  1px solid white;
+   border-radius: 5px;
+   margin :  5px;
+   justify-content: center; 
+
+}
+p
+{  
+    
+	color : #051937;
+	
+}
+
+select
+{
+    border-radius: 5px;
+   position: absolute;  
+   left :  150px;
+   border-color: white;
+   height: 25px;
+
+
+
+}
+
+div
+{
+   position: absolute;
+   left :  20px;
+
+}
+input.box
+{
+  
+   border-radius: 5px;
+   position: absolute;  
+   left :  150px;
+   border-color: white;
+   background: rgba(255,255,255,0.5); 
+}
+p.submit_button
+{
+   position: absolute;
+   left :  100px;
+
+}
+
+
+table.mys
+{
+
+   position: absolute;
+   top:13%;
+   border: 2px solid black;
+      background: rgba(255,255,255,0.1)
+
+}
+
+table.bio
+{
+
+   position: absolute;
+   top:85%;
+   border: 2px solid black;
+   background: rgba(255,255,255,0.1)
+
+}
+
+div.bi
+{
+   position:absolute;
+   top:80%;
+
+}

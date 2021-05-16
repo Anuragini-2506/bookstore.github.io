@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Buy a book</title>
+	<link rel="stylesheet" href="s2.css">
+</head>
+<body>
+	<form action="buy_page_submit" method="get" accept-charset="utf-8">
+	  <div>
+	  <p>Your Name  <input class = "box" type="TEXT" name="fname" maxlength="50"></p>
+	  <p>Email Address <input class = "box" type="TEXT" name="email" maxlength="50"></p>
+      <p>Genre 
+      	    <SELECT name="genre" size =1 value="    "> 
+      	    	<option value="Biographies">Biographies</option> 	        
+      	        <option value="Mysteries">Mysteries</option>  
+            </SELECT>
+      </p>
+      <p>Book name <input class = "box" type="text" name="book_name"></p>
+      <p>In which format do you want to buy the book?</p>
+      <p>
+	      Hardcover<input type="radio" name="book_type" value="">  &nbsp; &nbsp;
+	      Softcover<input type="radio" name="book_type" value="">
+      </p>
+      <p>Delivery location <input class = "box" type="text" maxlength="100" ></p>
+      <br>
+      <p><b><i>If book is in stock... You will recieve an email for further proceedings of payment within 2 minutes</i></b></p>
+      <p class="submit_button"><input type="submit" value="Submit" >&nbsp; &nbsp;&nbsp;&nbsp;<input type="reset" value="Reset" ></p>
+
+      <br>
+      
+      </div>		
+	</form>
+</body>
+</html>
